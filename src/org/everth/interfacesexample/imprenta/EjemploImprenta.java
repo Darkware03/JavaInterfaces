@@ -26,7 +26,7 @@ public class EjemploImprenta {
         imprimir(libro);
     }
 
-    public static void imprimir(Hoja imprimible){
+    public static void imprimir(Imprimible imprimible){
         System.out.println(imprimible.imprimir());
     }
 }
